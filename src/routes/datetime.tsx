@@ -40,9 +40,7 @@ const getRandomDateWithRange = (min: string, max: string) => {
 };
 
 const RandomDate = () => {
-  const [startDate, setStartDate] = createSignal(
-    getDateTime(new Date("2021-01-01T00:00"))
-  );
+  const [startDate, setStartDate] = createSignal(getDateTime(new Date()));
   const [endDate, setEndDate] = createSignal(getDateTime(new Date()));
 
   const [randomDate, setRandomDate] = createSignal<number | null>(null);
