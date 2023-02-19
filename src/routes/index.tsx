@@ -17,7 +17,7 @@ const GradientGridItem: ParentComponent<{ href?: string }> = ({
 const Index = () => {
   return (
     <>
-      <section class="max-w-max mx-auto text-center">
+      <section class="max-w-max mx-auto text-center px-2 md:px-0">
         <h1 class="text-4xl text-center my-14  text-gray-700">
           Which utility would you like to use? 🧰
         </h1>
